@@ -1,6 +1,7 @@
 
 	if self.head is not None:
 		self.head.prev = new_node
+		self.head.prev = new_node
 
 	# 5. move the head to point to the new node
 	self.head = new_node
